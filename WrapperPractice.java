@@ -2,6 +2,8 @@ public class WrapperPractice
 {
     public static void main(String[] args)
     {
-        Integer numberOne = new Integer(1);
+        Integer numberOne = 1;
+
+        numberOne = Integer.parseInt("5");
     }
 }
